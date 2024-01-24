@@ -7,6 +7,20 @@
 
 `pip install grad-cam`
 
+or Docker environment below,
+
+1. `$ docker-compose build`
+1. `$ docker-compose up -d`
+1. `$ docker-compose exec cam bash`
+1. `# cd /work`
+1. `# python3 cam.py`
+
+The way of Jupyter Notebook access is below,
+
+1. `$ docker-compose build`
+1. `$ docker-compose up -d`
+1. Access to `http://localhost:35000` on your browser
+
 Documentation with advanced tutorials: [https://jacobgil.github.io/pytorch-gradcam-book](https://jacobgil.github.io/pytorch-gradcam-book)
 
 
